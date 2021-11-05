@@ -54,6 +54,7 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 ## Analysis
 
 ![New Runtime for 2018](resources/VBA_Challenge_2018.png)
+
 With the old code, our runtime for 2018 is 0.xxxx
 
 ## Challenges

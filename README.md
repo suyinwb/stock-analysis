@@ -92,9 +92,10 @@ Therefore the speed increase for the data are:-
 ## Results
 
 ## Appendix
-'''Sub ClearWorksheetRefactored()
+```
+Sub ClearWorksheetRefactored()
 
     Cells.Clear
 
 End Sub
-'''
+```

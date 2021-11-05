@@ -63,7 +63,8 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 _2018 timer_
 
-With the new code, our runtime is 0.238 seconds compared to 13 seconds
+With the new code, our runtime is 0.238 seconds compared to 13 seconds.
+
 
 >Old Runtime for 2017
 
@@ -75,7 +76,11 @@ With the new code, our runtime is 0.238 seconds compared to 13 seconds
 
 _2017 timer_
 
-With the new code, our runtime is 0.261 seconds compared to 5.3 seconds
+With the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
+
+Therefore the speed increase for the data are:-
+2018: 54.6 times faster
+2017: 20.3 times faster
 
 
 ## Challenges

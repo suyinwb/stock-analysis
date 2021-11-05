@@ -55,7 +55,8 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 ![New Runtime for 2018](resources/VBA_Challenge_2018.png)
 
-With the old code, our runtime for 2018 is 0.xxxx
+With the old code, our runtime for 2018 is 0.238 seconds compared to
+![New Runtime for 2018](resources/VBA_Challenge_2018.png)
 
 ## Challenges
 

@@ -43,7 +43,6 @@ Excel VBA scripting
 #### 6. Analyse for Trends
 compare timer from old codes with new codes
 
-
 #### 7. Acknowledging Limitations
 * Unable test out the new codes with a much larger dataset for a dry-run.
 * Using VBA, the scripts will run in real-time.
@@ -63,8 +62,6 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 ![New Runtime for 2018](resources/VBA_Challenge_2018.png)
 
-
-
 With the new code, our runtime is 0.238 seconds compared to 4.96 seconds.
 
 **2018 timer**
@@ -77,7 +74,7 @@ With the new code, our runtime is 0.238 seconds compared to 4.96 seconds.
 
 ![New Runtime for 2017](resources/VBA_Challenge_2017.png)
 
-
+With the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
 
 ## Challenges
 
@@ -85,9 +82,7 @@ With the new code, our runtime is 0.238 seconds compared to 4.96 seconds.
 
 
 ## Results
-From [Analysis](#analysis), we can conclude that with the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
-
-Therefore the speed increase for the data are:
+From [Analysis](#analysis) we can conclude taht the speed increase for the data are:
 
 **2018:** 20.8 times faster
 

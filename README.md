@@ -15,11 +15,10 @@ From this work, Steve is able to use the tool with ease and churn his dataset fo
 
 Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
 
-From our previous partnership, she now wants to know how different campaigns fared in relation to their launch dates and their funding goals.
-The same dataset from her first analysis which is the dataset from 2009 to 2017, will be used for this second analysis.
+The same dataset from his first stock analysis will be used to measure the time difference.
 
 ### Purpose
-Louise will like to know how different campaigns fared in relation to their launch dates and their funding goals.
+The current dataset in the spreadsheet is small and already it takes a few seconds to run each year. Therefore, in order to expand to include many years and more stocks, we need to reduce the runtime through code refactoring. 
 
 ## Analysis and Challenges
 

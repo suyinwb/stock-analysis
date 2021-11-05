@@ -55,8 +55,8 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 ## Results
 
 ## Appendix
-  Sub ClearWorksheetRefactored()
+        Sub ClearWorksheetRefactored()
 
-      Cells.Clear
+            Cells.Clear
 
-  End Sub
+        End Sub

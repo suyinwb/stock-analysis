@@ -77,13 +77,6 @@ With the new code, our runtime is 0.238 seconds compared to 4.96 seconds.
 
 ![New Runtime for 2017](resources/VBA_Challenge_2017.png)
 
-With the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
-
-Therefore the speed increase for the data are:
-
-**2018** 20.8 times faster
-
-**2017** 20.3 times faster
 
 
 ## Challenges
@@ -92,6 +85,13 @@ Therefore the speed increase for the data are:
 
 
 ## Results
+From [Analysis](#analysis), we can conclude that with the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
+
+Therefore the speed increase for the data are:
+
+**2018:** 20.8 times faster
+
+**2017:** 20.3 times faster
 
 ## Appendix
 ```

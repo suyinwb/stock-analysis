@@ -18,9 +18,11 @@ Steve loves the workbook you prepared for him. At the click of a button, he can 
 The same dataset from his first stock analysis will be used to measure the time difference.
 
 ### Purpose
-The current dataset in the spreadsheet is small and already it takes a few seconds to run each year. Therefore, in order to expand to include many years and more stocks, we need to reduce the runtime through code refactoring. 
+The current dataset in the spreadsheet is small and already it takes a few seconds to run each year. Therefore, in order to expand to include many years and more stocks, we need to reduce the runtime through code refactoring.
 
 ## Analysis and Challenges
+
+
 
 ## Methodology: Analytics Paradigm
 
@@ -51,3 +53,10 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 
 ## Results
+
+## Appendix
+  Sub ClearWorksheetRefactored()
+
+      Cells.Clear
+
+  End Sub

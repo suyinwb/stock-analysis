@@ -53,8 +53,6 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 ## Analysis
 
-### Analysis
-
 ![Old Runtime for 2018](resources/2018_timer.png)
 >Old Runtime for 2018
 

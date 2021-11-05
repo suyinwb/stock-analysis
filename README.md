@@ -53,10 +53,16 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 ## Analysis
 
+### Analysis
+
+![Old Runtime for 2018](resources/2018_timer.png)
+>Old Runtime for 2018
+
 ![New Runtime for 2018](resources/VBA_Challenge_2018.png)
+>New Runtime for 2018
 
 With the old code, our runtime for 2018 is 0.238 seconds compared to
-![New Runtime for 2018](resources/VBA_Challenge_2018.png)
+
 
 ## Challenges
 
@@ -66,8 +72,9 @@ With the old code, our runtime for 2018 is 0.238 seconds compared to
 ## Results
 
 ## Appendix
-        Sub ClearWorksheetRefactored()
+'''Sub ClearWorksheetRefactored()
 
-            Cells.Clear
+    Cells.Clear
 
-        End Sub
+End Sub
+'''

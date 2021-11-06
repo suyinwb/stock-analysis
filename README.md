@@ -98,7 +98,7 @@ to
 
 By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is around 0.223 which reduces by 0.03 seconds.
 
-* Storing results in an array & reducing iterations
+**Storing results in an array & reducing iterations**
 
 In the old code, we have nested for loops
 

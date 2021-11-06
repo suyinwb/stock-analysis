@@ -98,7 +98,7 @@ For i
 Next i  
 
 ```
-The above means that we are running **3011*3011** loops.
+The above means that we are running **3012*3012** loops.
 
 In the new code, we have an array to store our results for all the 12 different tickers:
 
@@ -121,7 +121,7 @@ Next i
 
 ```
 
-Which means it is only runs **2*3011** loops.
+Which means it is only runs **2*3012** loops.
 
 2. **Changing the initial code base from**
 
@@ -146,7 +146,7 @@ From [Analysis](#analysis) we can conclude that the speed increase for the data 
 
 **2017-** 20.3 times faster
 
-With 3011 dataset each, our _**runtime is approximately 0.2 seconds**_. Therefore when we analyse tens of thousands of dataset with this VBA, the _**results will be available within a few minutes**_ compared to a few hours with the old codes.
+With 3012 dataset each, our _**runtime is approximately 0.2 seconds**_. Therefore when we analyse tens of thousands of dataset with this VBA, the _**results will be available within a few minutes**_ compared to a few hours with the old codes.
 
 ## Summary
 

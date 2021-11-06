@@ -146,6 +146,8 @@ From [Analysis](#analysis) we can conclude that the speed increase for the data 
 
 **2017:** 20.3 times faster
 
+With 3011 dataset each, our runtime is approximately 0.2 seconds. Therefore when we analyse tens of thousands of dataset, the results will be available within a few minutes compared to a few hours with the old codes.
+
 ## Summary
 
 ### Refactoring Code
@@ -158,11 +160,14 @@ From [Analysis](#analysis) we can conclude that the speed increase for the data 
 
 **Disadvantages**
 
-* Only can be done if the developer is proficient in the programming language.
-
-
+* Only can be done if the developer is proficient in the programming language
+* The developer who doesn't know will not have new methods for efficiency and might even end up breaking the original codes.
+* The developer need to spend more time debugging or studying to be able to come up with a better code structure.
 
 **How do these pros and cons apply to refactoring the original VBA script?**
+
+
+
 
 ## Appendix
 ```

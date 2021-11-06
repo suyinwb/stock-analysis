@@ -83,6 +83,7 @@ We can conclude above that the speed increase for the data are:
 **2017:** 20.3 times faster
 
 We've decided to include other efficiencies in the code by:
+
 Changing the initial code base from
 ```
     'Initialize array of all tickers

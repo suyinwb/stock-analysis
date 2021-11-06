@@ -76,13 +76,36 @@ With the new code, our runtime is 0.238 seconds compared to 4.96 seconds.
 
 With the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
 
+We can conclude above that the speed increase for the data are:
+
+**2018:** 20.8 times faster
+
+**2017:** 20.3 times faster
+
+We've decided to include other efficiencies in the code by:
+Changing the initial code base from
+```
+    'Initialize array of all tickers
+    Dim tickers(12) As String
+```
+
+to
+```
+    'Initialize array of all tickers
+    Dim tickers(11) As String
+```
+
+By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is 0.242 which reduces by 0.02 seconds.
+
 ## Challenges
 
 ### Challenges and Difficulties Encountered
 
+Limitation from self
+
 
 ## Results
-From [Analysis](#analysis) we can conclude taht the speed increase for the data are:
+From [Analysis](#analysis) we can conclude that the speed increase for the data are:
 
 **2018:** 20.8 times faster
 

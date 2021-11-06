@@ -130,7 +130,7 @@ For j
 Next j
 
 For i
-...
+  ...
 Next i  
 
 ```

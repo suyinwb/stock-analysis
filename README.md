@@ -142,9 +142,9 @@ The see the full code, see [Appendix](#appendix).
 
 From [Analysis](#analysis) we can conclude that the speed increase for the data are:
 
-**2018:** 20.8 times faster
+**2018-** 20.8 times faster
 
-**2017:** 20.3 times faster
+**2017-** 20.3 times faster
 
 With 3011 dataset each, our _**runtime is approximately 0.2 seconds**_. Therefore when we analyse tens of thousands of dataset with this VBA, the _**results will be available within a few minutes**_ compared to a few hours with the old codes.
 

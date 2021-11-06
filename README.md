@@ -80,9 +80,9 @@ With the new code, our runtime is 0.261 seconds compared to 5.3 seconds.
 
 We can conclude above that the speed increase for the data are:
 
-**2018:** 20.8 times faster
+**2018-** 20.8 times faster
 
-**2017:** 20.3 times faster
+**2017-** 20.3 times faster
 
 ### Code Efficiency Analysis
 

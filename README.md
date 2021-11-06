@@ -52,6 +52,8 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 ## Analysis
 
+### Results Analysis
+
 **2018 timer**
 
 >Old Runtime for 2018
@@ -82,7 +84,7 @@ We can conclude above that the speed increase for the data are:
 
 **2017:** 20.3 times faster
 
-We've decided to include other efficiencies in the code by:-
+### Code Efficiency Analysis
 
 * **Storing results in an array & reducing iterations**
 

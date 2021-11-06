@@ -101,7 +101,6 @@ The above means that we are running 3011*3011 loops.
 In the new code, we have an array to store our results for all the 12 different tickers.
 
 ```
-  '1b) Create three output arrays
   Dim tickerVolumes(11) As Long
   Dim tickerStartingPrices(11) As Single
   Dim tickerEndingPrices(11) As Single

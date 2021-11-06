@@ -96,7 +96,7 @@ For i
 Next i  
 
 ```
-The above means that we are running 3011*3011 loops.
+The above means that we are running **3011*3011** loops.
 
 In the new code, we have an array to store our results for all the 12 different tickers.
 
@@ -119,22 +119,20 @@ Next i
 
 ```
 
-Which means it is only runs 2*3011 loops.
+Which means it is only runs **2*3011** loops.
 
 * **Changing the initial code base from**
 
 ```
-    'Initialize array of all tickers
     Dim tickers(12) As String
 ```
 
 to
 ```
-    'Initialize array of all tickers
     Dim tickers(11) As String
 ```
 
-By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is around 0.223 which reduces by 0.03 seconds.
+By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is around 0.223 which **reduces by 0.03 seconds**.
 
 The read the full code, see [Appendix](#appendix).
 
@@ -146,7 +144,7 @@ From [Analysis](#analysis) we can conclude that the speed increase for the data 
 
 **2017:** 20.3 times faster
 
-With 3011 dataset each, our runtime is approximately 0.2 seconds. Therefore when we analyse tens of thousands of dataset with this VBA, the results will be available within a few minutes compared to a few hours with the old codes.
+With 3011 dataset each, our _**runtime is approximately 0.2 seconds**_. Therefore when we analyse tens of thousands of dataset with this VBA, the results will be available within a few minutes compared to a few hours with the old codes.
 
 ## Summary
 
@@ -166,8 +164,7 @@ With 3011 dataset each, our runtime is approximately 0.2 seconds. Therefore when
 
 **How do these pros and cons apply to refactoring the original VBA script?**
 
-
-
+For me, I've gained knowledge in making the code run more efficiently by using arrays in VBA. However, initially there were many errors due to inexperience and therefore every exception needs to be examined and new knowledge need to be culled from Stack Overflow. When the code is not giving the right output, I have to add verbosity to it with MsgBox in order to understand what the code is doing and therefore able to correct my mistake.
 
 ## Appendix
 ```

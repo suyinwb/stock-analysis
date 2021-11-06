@@ -64,7 +64,7 @@ The "Proper" Conclusion is indicated below on [Results](#results)
 
 With the new code, our runtime is 0.238 seconds compared to 4.96 seconds.
 
-**2018 timer**
+**2017 timer**
 
 >Old Runtime for 2017
 

@@ -82,9 +82,9 @@ We can conclude above that the speed increase for the data are:
 
 **2017:** 20.3 times faster
 
-We've decided to include other efficiencies in the code by:
+We've decided to include other efficiencies in the code by:-
 
-Changing the initial code base from
+* Changing the initial code base from
 ```
     'Initialize array of all tickers
     Dim tickers(12) As String
@@ -97,6 +97,44 @@ to
 ```
 
 By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is around 0.223 which reduces by 0.03 seconds.
+
+* Storing results in an array & reducing iterations
+
+In the old code, we have nested for loops
+
+```
+For i
+  For j
+    ...
+  Next j
+Next i  
+
+```
+The above means that we are running 3011*3011 loops.
+
+In the new code, we have an array to store our results for all the 12 different tickers.
+
+```
+  '1b) Create three output arrays
+  Dim tickerVolumes(11) As Long
+  Dim tickerStartingPrices(11) As Single
+  Dim tickerEndingPrices(11) As Single
+```
+
+And our code is
+
+```
+For j
+  ...
+Next j
+
+For i
+...
+Next i  
+
+```
+
+Which means it is only runs 2*3011 loops. 
 
 The read the full code, see [Appendix](#appendix)
 

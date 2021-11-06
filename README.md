@@ -134,9 +134,9 @@ Next i
 
 ```
 
-Which means it is only runs 2*3011 loops. 
+Which means it is only runs 2*3011 loops.
 
-The read the full code, see [Appendix](#appendix)
+The read the full code, see [Appendix](#appendix).
 
 ## Results
 From [Analysis](#analysis) we can conclude that the speed increase for the data are:

@@ -20,7 +20,7 @@ The same dataset from his first stock analysis will be used to measure the runti
 ### Purpose
 The current dataset in the spreadsheet is small and already it takes a few seconds to run each year. Therefore, in order to expand to include many years and more stocks, we need to reduce the runtime through code refactoring.
 
-## Analysis and Challenges
+## Analysis OR Challenges
 
 ## Methodology: Analytics Paradigm
 
@@ -41,7 +41,7 @@ Use stock analysis dataset in Excel
 Excel VBA scripting
 
 #### 6. Analyse for Trends
-compare timer from old codes with new codes
+Compare timer from old codes with new codes
 
 #### 7. Acknowledging Limitations
 * Unable test out the new codes with a much larger dataset for a dry-run.
@@ -96,14 +96,7 @@ to
     Dim tickers(11) As String
 ```
 
-By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is 0.242 which reduces by 0.02 seconds.
-
-## Challenges
-
-### Challenges and Difficulties Encountered
-
-Limitation from self
-
+By doing this, we decrease the size of the tickers() array to only what we need and it shows that both 2018 and 2017, runtime is around 0.223 which reduces by 0.03 seconds.
 
 ## Results
 From [Analysis](#analysis) we can conclude that the speed increase for the data are:
@@ -111,6 +104,24 @@ From [Analysis](#analysis) we can conclude that the speed increase for the data 
 **2018:** 20.8 times faster
 
 **2017:** 20.3 times faster
+
+## Summary
+
+### Refactoring Code
+
+**Advantages**
+
+* Saves time by reducing error as no new functionality is added, only code cleanup for efficiency
+* Reduce code complexity and increase code readability.
+* Ensures that it's scalable and can be easily maintained for the future.
+
+**Disadvantages**
+
+* Only can be done if the developer is proficient in the programming language.
+
+
+
+**How do these pros and cons apply to refactoring the original VBA script?**
 
 ## Appendix
 ```

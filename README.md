@@ -20,7 +20,7 @@ The same dataset from his first stock analysis will be used to measure the runti
 ### Purpose
 The current dataset in the spreadsheet is small and already it takes a few seconds to run each year. Therefore, in order to expand to include many years and more stocks, we need to reduce the runtime through code refactoring.
 
-## Analysis OR Challenges
+## Analysis And Challenges
 
 ## Methodology: Analytics Paradigm
 
@@ -86,7 +86,7 @@ We've decided to include other efficiencies in the code by:-
 
 * **Storing results in an array & reducing iterations**
 
-In the old code, we have nested for loops
+In the old code, we have nested for loops code structure:
 
 ```
 For i
@@ -106,7 +106,7 @@ In the new code, we have an array to store our results for all the 12 different 
   Dim tickerEndingPrices(11) As Single
 ```
 
-And our code is
+And the code structure:
 
 ```
 For j
@@ -139,13 +139,14 @@ By doing this, we decrease the size of the tickers() array to only what we need 
 The read the full code, see [Appendix](#appendix).
 
 ## Results
+
 From [Analysis](#analysis) we can conclude that the speed increase for the data are:
 
 **2018:** 20.8 times faster
 
 **2017:** 20.3 times faster
 
-With 3011 dataset each, our runtime is approximately 0.2 seconds. Therefore when we analyse tens of thousands of dataset, the results will be available within a few minutes compared to a few hours with the old codes.
+With 3011 dataset each, our runtime is approximately 0.2 seconds. Therefore when we analyse tens of thousands of dataset with this VBA, the results will be available within a few minutes compared to a few hours with the old codes.
 
 ## Summary
 

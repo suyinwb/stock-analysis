@@ -6,7 +6,7 @@ The initial purpose of our analysis is to help Steve's parents analyse:
 From this, we found out that Daqo dropped over 63% in 2018.
 * Due to the above, we replicated our script to analyse all the stocks on the dataset to give Steve's parents a full view of all the stocks' performance.
 * In order to make the spreadsheet more user-friendly, we've included buttons to make it easier for Steve to use.
-* We've also added flexiblity for Steve to input the year he is interested to analyse with aninput field.
+* We've also added flexiblity for Steve to input the year he is interested to analyse with an input field.
 * We've also added a functionality to calculate how long it takes to execute the output and elapsed time in a message box.
 
 From this work, Steve is able to use the tool with ease and churn his dataset for analysis.
